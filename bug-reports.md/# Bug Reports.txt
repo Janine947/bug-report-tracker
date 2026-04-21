@@ -1,0 +1,94 @@
+# Bug Reports
+
+## BUG_001 - Login button does not respond after entering valid credentials
+
+**Module:** Login  
+**Severity:** High  
+**Priority:** High  
+**Environment:** Chrome on Windows 10
+
+### Steps to Reproduce
+1. Open the login page
+2. Enter valid email address
+3. Enter valid password
+4. Click Login
+
+### Expected Result
+User should be logged in and redirected to the dashboard.
+
+### Actual Result
+Login button does not respond.
+
+### Status
+Open
+
+---
+
+## BUG_002 - Search results page displays broken product images
+
+**Module:** Product Search  
+**Severity:** Medium  
+**Priority:** Medium  
+**Environment:** Chrome on Windows 10
+
+### Steps to Reproduce
+1. Open the homepage
+2. Search for any available product
+3. View the search results
+
+### Expected Result
+All product images should load correctly.
+
+### Actual Result
+Some product images appear broken or missing.
+
+### Status
+Open
+
+---
+
+## BUG_003 - Cart total does not update after changing quantity
+
+**Module:** Shopping Cart  
+**Severity:** High  
+**Priority:** High  
+**Environment:** Chrome on Windows 10
+
+### Steps to Reproduce
+1. Add a product to cart
+2. Open the cart
+3. Change product quantity from 1 to 2
+
+### Expected Result
+Cart total should update automatically.
+
+### Actual Result
+Cart total remains unchanged.
+
+### Status
+Open
+
+---
+
+## BUG_004 - Registration form accepts invalid email format
+
+**Module:** User Registration  
+**Severity:** Medium  
+**Priority:** Medium  
+**Environment:** Chrome on Windows 10
+
+### Steps to Reproduce
+1. Open the registration page
+2. Enter full name
+3. Enter invalid email format such as janine@com
+4. Enter password
+5. Click Register
+
+### Expected Result
+System should reject invalid email format.
+
+### Actual Result
+Form accepts the invalid email and proceeds.
+
+### Status
+Open
